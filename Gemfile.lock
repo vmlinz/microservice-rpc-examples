@@ -6,7 +6,12 @@ GEM
       json (>= 1.5.0)
     bunny (2.0.0)
       amq-protocol (>= 1.9.2)
+    cool.io (1.2.4)
     json (1.8.3)
+    msgpack (0.5.12)
+    msgpack-rpc (0.5.3)
+      cool.io (~> 1.2.4)
+      msgpack (~> 0.5.10)
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
@@ -24,6 +29,7 @@ DEPENDENCIES
   barrister
   bunny
   json
+  msgpack-rpc
   redis
   sinatra
 
