@@ -1,0 +1,4 @@
+interface Calculator {
+	add(a float, b float) float
+	substract(a float, b float) float
+}

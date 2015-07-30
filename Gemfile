@@ -4,4 +4,4 @@ gem 'json'
 gem 'bunny'
 gem 'sinatra'
 gem 'redis'
-
+gem 'barrister'

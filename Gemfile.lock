@@ -2,6 +2,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     amq-protocol (1.9.2)
+    barrister (0.1.1)
+      json (>= 1.5.0)
     bunny (2.0.0)
       amq-protocol (>= 1.9.2)
     json (1.8.3)
@@ -19,6 +21,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  barrister
   bunny
   json
   redis
