@@ -2,18 +2,7 @@
 
 require 'sinatra'
 require 'barrister'
-
-class Calculator
-
-	def add(a, b)
-		a + b
-	end
-
-	def substract(a, b)
-		a - b
-	end
-	
-end
+require '../service/calculator'
 
 contract = Barrister::contract_from_file('calc.json')
 server = Barrister::Server.new(contract)
